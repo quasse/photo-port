@@ -34,6 +34,7 @@ function Nav(props) {
             >
               <span
                 onClick={() => {
+                  console.log("test");
                   setCurrentCategory(category);
                 }}
               >
